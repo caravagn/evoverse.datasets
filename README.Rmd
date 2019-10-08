@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 
 # REVOLVER.datasets <img src='man/figures/logo.png' align="right" height="139" />
 
-The `REVOLVER.datasets` package contains datasets and analysis results computed with the `REVOLVER` package - [revolver](https://caravagn.github.io/revolver).
+The `REVOLVER.datasets` package contains datasets and their analysis results computed with the `revolver` [package](https://caravagn.github.io/revolver).
 
 #### Usage
 
