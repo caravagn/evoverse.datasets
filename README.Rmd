@@ -11,24 +11,29 @@ knitr::opts_chunk$set(
 )
 ```
 
-# REVOLVER.datasets <img src='man/figures/logo.png' align="right" height="139" />
+# evoverse.datasets <img src='man/figures/logo.png' align="right" height="139" />
 
-The `REVOLVER.datasets` package contains datasets and their analysis results computed with the `revolver` [package](https://caravagn.github.io/revolver).
+The `evoverse.datasets` package contains datasets and their analysis results as computed with the 
+packages of `evoverse` [package](https://caravagn.github.io/evoverse), a collection of algorithms
+to carry out Canver Evolution analysis from tumour sequencing data.
 
 #### Usage
 
-To load dataset `'xxx'` use `data('xxx', package='REVOLVER_datasets')`.
+When you load the package - `library(evoverse.datasets)` - the datasets currently available are shown. 
+Use `available_data()` to print out the summary again.
+
+To load dataset `'xxx'` use `data('xxx', package='evoverse.datasets')`.
 
 -----
 
 ### Installation
 
-You can install the released version of `REVOLVER.datasets` from
+You can install the released version of `evoverse.datasets` from
 [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("caravagn/REVOLVER.datasets")
+devtools::install_github("caravagn/evoverse.datasets")
 ```
 
 -----
