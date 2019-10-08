@@ -5,6 +5,7 @@
 #' @return Nothing.
 #'
 #' @import clisymbols
+#' @import pio
 #'
 #' @export
 #'

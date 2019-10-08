@@ -13,12 +13,6 @@ knitr::opts_chunk$set(
 
 # REVOLVER.datasets <img src='man/figures/logo.png' align="right" height="139" />
 
-<!-- badges: start -->
-[![Travis build status](https://travis-ci.org/caravagn/ctree.svg?branch=master)](https://travis-ci.org/caravagn/ctree)
-[![Codecov test coverage](https://codecov.io/gh/caravagn/ctree/branch/master/graph/badge.svg)](https://codecov.io/gh/caravagn/ctree?branch=master)
-[![Lifecycle: maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
-<!-- badges: end -->
-
 The `REVOLVER.datasets` package contains datasets and analysis results computed with the `REVOLVER` package - [revolver](https://caravagn.github.io/revolver).
 
 #### Usage
