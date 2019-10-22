@@ -15,7 +15,7 @@ available_data = function()
 {
   cat('\nAvailable datasets ~ use data(\'xxx\', package=\'REVOLVER_datasets\') to load dataset \'xxx\'\n\n')
 
-  pio::pioStr("TRACERx_NEJM_2017", "Mutations from TRACERx lung (NEJM2017, PMID: 28445112). n = 99 patients, multi-region WES.",
+  pio::pioStr("TRACERx_NEJM_2017", "Mutations from TRACERx lung (PMID: 28445112). n = 99 patients, multi-region WES, CCF.",
               suffix = '\n',
               prefix = paste0(clisymbols::symbol$radio_on, ' ')
               )
@@ -25,5 +25,15 @@ available_data = function()
               prefix = paste0(clisymbols::symbol$radio_on, ' ')
   )
 
+  pio::pioStr("YATES_BREAST_NATMED_2015", "Mutations from breast cancers (PMID: 26099045). n = 50 patients, multi-region WES, binary.",
+              suffix = '\n',
+              prefix = paste0(clisymbols::symbol$radio_on, ' ')
+  )
+
+
+  pio::pioStr("CROSS_CRC_ADENOCARCINOMA_NATECOEVO_2018", "Mutations from colorectal adenocarcinomas (PMID: 30177804). n = 19 patients, multi-region WES, binary.",
+              suffix = '\n',
+              prefix = paste0(clisymbols::symbol$radio_on, ' ')
+  )
 
 }
