@@ -36,4 +36,15 @@ available_data = function()
               prefix = paste0(clisymbols::symbol$radio_on, ' ')
   )
 
+  pio::pioStr("MSEQ_CRC_ADENOCARCINOMA_SET6", "Mutations, copy number and purity from the Set6 multi-region colorectal adenocarcinoma sample (doi:10.1101/586560). n = 1 patient, multi-region WGS",
+              suffix = '\n',
+              prefix = paste0(clisymbols::symbol$radio_on, ' ')
+  )
+
+  pio::pioStr("MSEQ_CRC_ADENOCARCINOMA_SET7", "Mutations, copy number and purity from the Set7 multi-region colorectal adenocarcinoma sample (doi:10.1101/586560). n = 1 patient, multi-region WGS",
+              suffix = '\n',
+              prefix = paste0(clisymbols::symbol$radio_on, ' ')
+  )
+
+
 }

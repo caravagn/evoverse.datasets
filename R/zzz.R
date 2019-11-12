@@ -3,7 +3,7 @@
   # =-=-=-=-=-=-
   # Required packages will be listed here
   # =-=-=-=-=-=-
-  requirements = c('tidyverse', 'pio', 'crayon', 'ggpubr', 'peakPick', 'RColorBrewer')
+  requirements = c('pio', 'crayon')
 
   suppressMessages(sapply(requirements, require, character.only = TRUE))
 
@@ -16,9 +16,9 @@
   # Header
   # =-=-=-=-=-=-
 
-  REVOLVER_datasets_welcome_message =  getOption('CNAqc_welcome_message', default = TRUE)
+  evoverse_datasets_welcome_message =  getOption('evoverse_datasets_welcome_message', default = TRUE)
 
-  if(REVOLVER_datasets_welcome_message)
+  if(evoverse_datasets_welcome_message)
   {
     # pio::pioHdr('REVOLVER ~ Data package')
     # pio::pioStr("Author : ", "Giulio Caravagna <gcaravagn@gmail.com>", suffix = '\n')
@@ -34,7 +34,7 @@
 
     available_data()
 
-    options(REVOLVER_datasets_welcome_message = FALSE)
+    options(evoverse_datasets_welcome_message = FALSE)
   }
 
   invisible()
