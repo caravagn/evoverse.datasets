@@ -1,12 +1,11 @@
 Package: evoverse.datasets
 Type: Package
-Title: Data released along with the evoverse package
+Title: Data released in the evoverse
 Version: 0.1.0
 Author: Giulio Caravagna
 Maintainer: Giulio Caravagna <gcaravagn@gmail.com>
 Authors@R: person("Giulio", "Caravagna", role = c("aut", "cre"), email = "gcaravagn@gmail.com")
-Description: Data released along with the evoverse package, an results of the analysis
-  carried out with evoverse packages.
+Description: Data released along with the evoverse and related packages. There are raw data or results of the analysis carried out with evoverse packages.
 License: GPL
 Encoding: UTF-8
 LazyData: true

@@ -10,20 +10,21 @@ maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www
 [![](https://img.shields.io/badge/Part%20of-evoverse-blue.svg)](https://caravagn.github.io/evoverse)
 <!-- badges: end -->
 
-The `evoverse.datasets` package contains datasets and their analysis
-results as computed with the packages of `evoverse`
+The `evoverse.datasets` package contains datasets and analysis computed
+with the packages of `evoverse`
 [package](https://caravagn.github.io/evoverse), a collection of
 algorithms to carry out Canver Evolution analysis from tumour sequencing
 data.
 
 #### Usage
 
-When you load the package - `library(evoverse.datasets)` - the datasets
-currently available are shown. Use `available_data()` to print out the
-summary again.
+``` r
+library(evoverse.datasets)
+available_data()
 
-Example: to load dataset `'TRACERx_NEJM_2017'` use
-`data('TRACERx_NEJM_2017', package='evoverse.datasets')`.
+# Example load of TRACERx calls NEJM 2017
+data('TRACERx_NEJM_2017', package = 'evoverse.datasets')
+```
 
 -----
 

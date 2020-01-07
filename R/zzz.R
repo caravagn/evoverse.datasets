@@ -32,7 +32,19 @@
     # )
     #
 
-    available_data()
+
+
+    # pk = 'evoverse.datasets'
+    # pk_l = 'Datasets released within evoverse'
+    # www = "https://caravagn.github.io/evoverse.datasets/"
+    # em = "gcaravagn@gmail.com"
+    #
+    # cli::cli_alert_success(
+    #   'Loading {.field {pk}}, {.emph \'{pk_l}\'}. Support : {.url { www}}' )
+
+
+
+    # available_data()
 
     options(evoverse_datasets_welcome_message = FALSE)
   }
