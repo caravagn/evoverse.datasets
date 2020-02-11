@@ -10,19 +10,21 @@ maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www
 [![](https://img.shields.io/badge/Part%20of-evoverse-blue.svg)](https://caravagn.github.io/evoverse)
 <!-- badges: end -->
 
-The `evoverse.datasets` package contains datasets and analysis computed
-with the packages of `evoverse`
-[package](https://caravagn.github.io/evoverse), a collection of
-algorithms to carry out Canver Evolution analysis from tumour sequencing
-data.
+The `evoverse.datasets` is a wrapper package that contains datasets
+released within the `evoverse` package. The [evoverse
+package](https://caravagn.github.io/evoverse) is a suite of R package
+that can be used to implement Cancer Evolution analysis from tumour
+genome sequencing data.
 
 #### Usage
 
 ``` r
 library(evoverse.datasets)
+
+# Show the available data
 available_data()
 
-# Example load of TRACERx calls NEJM 2017
+# Example load of TRACERx calls from the NEJM 2017 dataset
 data('TRACERx_NEJM_2017', package = 'evoverse.datasets')
 ```
 
