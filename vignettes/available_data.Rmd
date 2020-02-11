@@ -1,0 +1,27 @@
+---
+title: "Available datasets"
+output: rmarkdown::html_vignette
+author: "Giulio Caravagna"
+date: "January 2020"
+institute: "Institute for Cancer Research"
+email: "giulio.caravagna@icr.ac.uk"
+vignette: >
+  %\VignetteEngine{knitr::knitr}
+  %\VignetteIndexEntry{Available data}
+  %\usepackage[UTF-8]{inputenc}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(evoverse.datasets)
+```
+
+```{r}
+available_data()
+```

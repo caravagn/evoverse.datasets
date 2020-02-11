@@ -2,7 +2,7 @@
 % Please edit documentation in R/available_data.R
 \name{available_data}
 \alias{available_data}
-\title{Print the list available datasets.}
+\title{Print the list of available datasets.}
 \usage{
 available_data()
 }
